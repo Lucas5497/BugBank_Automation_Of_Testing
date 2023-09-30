@@ -47,7 +47,7 @@ Ferramentas usadas na construção do projeto:
    
 ## Relatórios
 
-Após a execução dos testes, os relatórios são gerados na pasta `target/site/serenity`. Você pode visualizar os relatórios HTML no navegador.
+Após a execução dos testes, os relatórios são gerados na pasta `target/`. Você pode visualizar os relatórios HTML no navegador.
 
 ## Contribuição
 
