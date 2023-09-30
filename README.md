@@ -39,8 +39,8 @@ Ferramentas usadas na construção do projeto:
 - `target`: É onde os resultados dos testes e relatórios são gerados após a execução dos testes.
 
 ## Executando os Testes
-Você pode executar os testes a partir da linha de comando usando o Maven:
 
+4. Você pode executar os testes a partir da linha de comando usando o Maven:
    ```bash
    mvn test
 
