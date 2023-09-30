@@ -41,9 +41,10 @@ Ferramentas usadas na construção do projeto:
 ## Executando os Testes
 
 4. Você pode executar os testes a partir da linha de comando usando o Maven:
+
    ```bash
    mvn test
-
+   
 ## Relatórios
 
 Após a execução dos testes, os relatórios são gerados na pasta `target/site/serenity`. Você pode visualizar os relatórios HTML no navegador.
