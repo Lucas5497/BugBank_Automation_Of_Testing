@@ -11,7 +11,7 @@ Ferramentas usadas na construção do projeto:
 - Java JDK 21
 - Maven
 - WebDriver EdgeDriver
-- Junit 5
+- JUnit 5
 - Eclipse IDE
 
 ## Configuração do Projeto
