@@ -6,23 +6,25 @@ Este é um projeto de automação de testes usando Java, Selenium WebDriver, JUn
 
 ## Requisitos
 
-Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
+Ferramentas usadas na construção do projeto:
 
-- Java JDK (versão recomendada)
+- Java JDK 21
 - Maven
-- WebDriver (por exemplo, ChromeDriver para testes no Google Chrome)
+- WebDriver EdgeDriver
+- Junit 5
+- Eclipse IDE
 
 ## Configuração do Projeto
 
 1. Clone este repositório para sua máquina local:
 
    ```bash
-   git clone https://github.com/Lucas5497/TestesSelenium.git
+   git clone https://github.com/Lucas5497/BugBank_Automation_Of_Testing.git
 
 2. Navegue até o diretório do projeto:
    
    ```bash
-   cd TestesSelenium
+   cd BugBank_Automation_Of_Testing.git
 
 3. Instale as dependências do Maven:
    
@@ -31,15 +33,16 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
    
 ## Estrutura do Projeto
 
-- `src/test/java`: Contém os arquivos de código-fonte dos testes.
+- `src/main/java`: Contém os arquivos de código-fonte dos testes.
 - `src/test/resources`: Contém os recursos de teste, como arquivos de dados e configurações.
 - `src/main/java`: Pode conter classes de utilitário ou outros componentes relevantes.
 - `target`: É onde os resultados dos testes e relatórios são gerados após a execução dos testes.
 
 ## Executando os Testes
-
 Você pode executar os testes a partir da linha de comando usando o Maven:
 
+   ```bash
+   mvn test
 
 ## Relatórios
 
