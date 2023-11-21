@@ -16,7 +16,6 @@ public class loginPage{
 	
 	String acessarBotaoElement = "//*[@id=\"__next\"]/div/div[2]/div/div[1]/form/div[3]/button[1]";
 	
-	
 	String registrarBotaoElement ="//*[@id=\"__next\"]/div/div[2]/div/div[1]/form/div[3]/button[2]";
 	
 	String resultadoAcessar = "modalText";

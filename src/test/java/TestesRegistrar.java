@@ -25,14 +25,13 @@ public class TestesRegistrar{
 		driver.manage().window().setSize(new Dimension(1366, 768));
 		driver.get(url);
 		page = new registrarPage(driver);
-		new loginPage(driver);
-		Thread.sleep(500);
+		Thread.sleep(1000);
 	}
 	
 	
 	@AfterEach
 	public void finaliza() throws InterruptedException {
-		Thread.sleep(500);
+		Thread.sleep(1000);
 		driver.quit();
 	}
 	
@@ -67,7 +66,6 @@ public class TestesRegistrar{
 		
 	}
 	
-	
 	@Test
 	@DisplayName("Registrar conta com senhas diferentes")
 	public void registrarContaComSenhasDiferentes() throws InterruptedException {
@@ -84,7 +82,6 @@ public class TestesRegistrar{
 		System.out.println(page.obterResultadoRegistrar());
 		
 		page.fechar();
-		
 	}
 	
 	@Test

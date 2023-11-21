@@ -28,13 +28,13 @@ public class TestesLogin{
 		driver.get(url);
 		page = new registrarPage(driver);
 		pageLogin = new loginPage(driver);
-		Thread.sleep(500);
+		Thread.sleep(1000);
 	}
 	
 	
 	@AfterEach
 	public void finaliza() throws InterruptedException {
-		Thread.sleep(500);
+		Thread.sleep(1000);
 		driver.quit();
 	}
 		

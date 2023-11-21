@@ -3,5 +3,5 @@ import org.junit.platform.suite.api.Suite;
 
 @Suite
 @SelectClasses({ TestesRegistrar.class, TestesLogin.class })
-public class SuiteTeste {
+public class SuiteTest {
 }
