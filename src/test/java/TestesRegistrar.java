@@ -20,7 +20,7 @@ public class TestesRegistrar{
 		
 		EdgeOptions options = new EdgeOptions();
 		options.addArguments("--remote-allow-origins=*");
-		System.setProperty("webdriver.edge.driverwhitelistedIps", "C:\\Users\\Acer\\Desktop\\msedgedriver.exe");
+		System.setProperty("webdriver.edge.driverwhitelistedIps", "C:\\Users\\Acer\\eclipse-workspace\\BugBank_Automation_Of_Testing\\msedgedriver.exe");
 		driver = new EdgeDriver(options);
 		driver.manage().window().setSize(new Dimension(1366, 768));
 		driver.get(url);
