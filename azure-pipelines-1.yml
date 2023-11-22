@@ -10,9 +10,6 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: UseJavaVersion@0
-  inputs:
-    versionSpec: '1.8'  # Substitua pela versão do Java que você está usando
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
